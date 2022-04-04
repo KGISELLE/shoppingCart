@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import ProductListPage from './Components/ProductListPage'
 
 const App = () => {
   // -------------------------------------------------
@@ -18,12 +19,18 @@ const App = () => {
   }, [])
   // -------------------------------------------------
 
+  
   return (
     <div style={{ textAlign: 'center' }}>
       <h1> Prueba tecnica front Ecomsur 2021</h1>
       <p>Borra esto y comienza aqui.</p>
       {/* Check to see if express server is running correctly */}
       <h5>{response}</h5>
+      <h6>prueba</h6>
+      <h6>Giselle</h6>
+      <p>hoal</p>
+      <h1>hola todos</h1>
+      <ProductListPage />
     </div>
   )
 }
