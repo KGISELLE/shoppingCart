@@ -15,7 +15,6 @@
     margin: 2em;
     box-shadow:rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-
 .itemContainer img {
     /* border: 1px solid red; */
     border-top-left-radius: 10px;
@@ -23,7 +22,6 @@
     box-sizing: border-box;
     width: 100%;
 }
-
 .itemContainer button {
     margin-bottom: 2em;
     padding: 0.6em;
@@ -35,11 +33,9 @@
     font-weight: bolder;
     font-size: 1em;
 }
-
 img + p {
     font-size: 1.2rem;
     font-weight: bolder;
-    margin: 1em;
     cursor: pointer;
 }
 img + p:hover {

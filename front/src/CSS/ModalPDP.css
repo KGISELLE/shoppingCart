@@ -5,39 +5,37 @@
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, .5);
-
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .modalContainer{
     width: 70%;
-    min-height: 100px;
+    max-height: 90vh;
     background-color: #fff;
-    position: relative;
+    /* position: relative; */
     border-radius: 5px;
     box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, .2);
-    padding: 20px;
+    padding: 0px 20px;
+    overflow: scroll;
 }
 .detailHeader{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
-    padding-bottom: 20px;
     border-bottom: 1px solid #e8e8e8;
 }
 .detailHeader h3{
-    font-weight: 500;
-    font-size: 16px;
-    color: #1766DC
+    color: #1766DC;
+    font-size: 1.2em;
 }
-.modalContainer button{
-    position: absolute;
+.detailHeader button{
+    /* position: absolute;
     top: 15px;
-    right: 20px;
-    width: 30px;
-    height: 30px;
+    right: 20px;*/
+    width: 50px;
+    height: 50px; 
     border: none;
     background: none;
     cursor: pointer;
@@ -45,11 +43,73 @@
     border-radius: 5px;
     color: #1766DC;
 }
-.modalContainer button:hover{
-    background: #f2f2ff;
-    
+.detailHeader button:hover{
+    background: #f2f2ff;   
 }
 svg{
     height: 100%;
     width: 100%;
+}
+.detailBody {
+    width: 100%;
+    box-sizing: border-box;
+    /* display: flex;
+    flex-flow: column wrap; */
+    position: relative;
+    margin-bottom: 2em;
+}
+.detailBody img {
+    box-sizing: border-box;
+    width: 100%;
+}
+.detailBody div {
+    display: flex;
+    
+    align-content: space-around ;
+    justify-content: space-around;
+}
+.detailBody div p{
+    margin: 0px 5px;
+    box-sizing: border-box;
+}
+span {
+    font-weight: bold;
+    color: #1766DC;
+}
+.priceDetail {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.descriptionDetail{
+    text-align: justify;
+}
+.categoryDetail {
+    position: absolute;
+    top: 0px;
+    right: 8px;
+    background-color: #6090D7;
+    padding: 0.2em;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+.stockDetail{
+    position: absolute;
+    top: 0;
+    left: 8px;
+    font-weight: bold;
+}
+
+/* Media queries para diseño responsive */
+@media (min-width: 650px) {
+    .modalContainer{
+        width: 60%;
+    }
+    .detailBody img {
+        border-radius: 10px;
+    }
+}
+@media (min-width: 1000px) {
+    .modalContainer{
+        width: 40%;
+    }
 }

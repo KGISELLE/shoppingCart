@@ -1,8 +1,8 @@
 # ✨📝🏃‍♀️ PASO A PASO RESOLUCIÓN PRUEBA
 
 ### Dia 1: Planeación, llamado api y primer componente "ProductListPage".
-### Dia 2: Componentes "ProductDisplayPage" y "CartPage".
-### Dia 3: Componente "MiniCart" y deploy.
+### Dia 2: Componente "ProductDisplayPage".
+### Dia 3: Componentes "CartPage" y "MiniCart" y deploy.
 <hr>
 
 ## Dia 1:
@@ -97,3 +97,7 @@
 4. Realizar cambios de estado y onclick para abrir y cerrar el modal.
 
 5. Agregar contenido dinámico para que al dar click en el nombre de un producto se abra el modal y muestre los detalles de este producto.
+
+6. Dar estilos mobile first para el modal.
+
+7. Dar estilos responsive para el modal.
