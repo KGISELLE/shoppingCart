@@ -78,7 +78,22 @@
 
 26. Completar vista mobile first de "ProductListPage".
 
-<------------------------------>
 <br>
--agreagar react dom
--agregar links para pasar a vista de mas detalles.
+
+<--------------NOTAS---------------->
+- Agregar react dom (error al intentar realizar router)
+- Agregar links para pasar a vista de mas detalles. (error al intentar realizar router)
+
+<hr>
+
+## Dia 2:
+
+1. Completar vista "ProductListPage" responsive.
+
+2. Crear el componente "ModalPDP" para mostrar los detalles del producto "ProductDisplayPage", como una ventana modal.
+
+3. Crear estilos iniciales del modal.
+
+4. Realizar cambios de estado y onclick para abrir y cerrar el modal.
+
+5. Agregar contenido dinámico para que al dar click en el nombre de un producto se abra el modal y muestre los detalles de este producto.

@@ -40,6 +40,11 @@ img + p {
     font-size: 1.2rem;
     font-weight: bolder;
     margin: 1em;
+    cursor: pointer;
+}
+img + p:hover {
+    color: #1766DC;
+    text-decoration: underline;
 }
 
 /* Media queries para diseño responsive */
