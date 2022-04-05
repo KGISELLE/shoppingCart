@@ -73,3 +73,12 @@
 23. Crear carpeta CSS para almacenar los archivos CSS de cada componente.
 
 24. Subir la imagen del diagrama del componente a imgur.com y despues traerla al repositorio para visualizar.
+
+25. Agregar estilos CSS a vista "ProductListPage".
+
+26. Completar vista mobile first de "ProductListPage".
+
+<------------------------------>
+<br>
+-agreagar react dom
+-agregar links para pasar a vista de mas detalles.
