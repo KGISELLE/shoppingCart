@@ -1,8 +1,8 @@
 # ✨📝🏃‍♀️ PASO A PASO RESOLUCIÓN PRUEBA
 
-### Dia 1:
-### Dia 2: 
-### Dia 3: 
+### Dia 1: Planeación, llamado api y primer componente "ProductListPage".
+### Dia 2: Componentes "ProductDisplayPage" y "CartPage".
+### Dia 3: Componente "MiniCart" y deploy.
 <hr>
 
 ## Dia 1:
@@ -31,6 +31,8 @@
 10. Dentro de la carpeta "Components", crear el primer componente de la aplicación "ProductListPage.jsx".
 
 11. Esquematizar los componentes que posiblemente tendra la aplicación.
+
+    [Esquema Inicial de Componentes](https://i.imgur.com/a/2iuxvKN.jpg)
 
 12. En el archivo "ProductListPage.jsx", crear una funcion para llara los datos de la url/api, y guardar estos datos es el useState([]), para poder utilizarlos podteriormente para llamar cada dato del api.
 
@@ -68,3 +70,6 @@
     ```
     git push -u origin main
     ```
+23. Crear carpeta CSS para almacenar los archivos CSS de cada componente.
+
+24. Subir la imagen del diagrama del componente a imgur.com y despues traerla al repositorio para visualizar.

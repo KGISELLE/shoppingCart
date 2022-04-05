@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
+import Products from '../Components/Products';
+
 const ProductListPage = () => {
 
   const [apiRes, setApiRes] = useState([]); //Trae objeto results de la API
@@ -15,16 +17,10 @@ const ProductListPage = () => {
   }, [])
   
   return (
-    <div>
-      {apiRes.map(product => (
-        <div>
-          <img src={`http://localhost:5000/${product.image}`} alt={product.name}/>
-          <p>{product.name}</p>
-          <p>${product.price}</p>
-        </div>
-      ))}
-    
-    </div>
+    <>
+      <Products 
+      apiRes = {apiRes}/>
+    </>
   )
 }
 
