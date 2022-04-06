@@ -5,6 +5,35 @@
 ### Dia 3: Componentes "CartPage" y "MiniCart" y deploy.
 <hr>
 
+## MVP
+
+Se requiere implementar un carrito de compras simple que traiga toda la info del API local, éste debe contar con las siguientes secciones:
+
+[✔] Una lista de ítems mostrando el catálogo de productos. (Product List Page).
+
+[✔] Página de producto mostrando detalle de producto. (Product Display Page).
+
+[] Un carrito de compras que tenga todos los ítems que serán comprados por el usuario. (Cart Page).
+
+[] Espacio donde se muestre la sincronización de los ítems añadidos al carrito. (Mini cart). 
+
+## Restricciones
+[] No utilizar "CSS frameworks" como Bootstrap, MUI, Semantic UI, etc.
+
+[] Si no utilizas el API local tu prueba será descartada.
+
+## Rules
+[] Cada ítem del catálogo debe tener un action button con el texto Add item to cart.
+
+[] Si no hay stock el action button debe deshabilitarse.
+
+[] Cada ítem en el carro debe tener un action button para remover el ítem del carro.
+
+[] Los items en el carrito se deben de agrupar mostrando cantidad de cada producto añadido.
+
+[] Recuerda la filosofía "Mobile-First Responsive Design".
+<hr>
+
 ## Dia 1:
 1. Leer todo el documento para entender el problema a solucionar.
 

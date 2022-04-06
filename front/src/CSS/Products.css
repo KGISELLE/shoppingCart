@@ -32,6 +32,11 @@
     background-color:whitesmoke;
     font-weight: bolder;
     font-size: 1em;
+    cursor: pointer;
+}
+.itemContainer button:hover{
+    background-color:#6090D7;
+    color: whitesmoke;  
 }
 img + p {
     font-size: 1.2rem;
