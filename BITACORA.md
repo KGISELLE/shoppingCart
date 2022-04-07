@@ -15,15 +15,15 @@ Se requiere implementar un carrito de compras simple que traiga toda la info del
 
 [] Un carrito de compras que tenga todos los ítems que serán comprados por el usuario. (Cart Page).
 
-[] Espacio donde se muestre la sincronización de los ítems añadidos al carrito. (Mini cart). 
+[✔] Espacio donde se muestre la sincronización de los ítems añadidos al carrito. (Mini cart). 
 
 ## Restricciones
-[] No utilizar "CSS frameworks" como Bootstrap, MUI, Semantic UI, etc.
+[✔] No utilizar "CSS frameworks" como Bootstrap, MUI, Semantic UI, etc.
 
-[] Si no utilizas el API local tu prueba será descartada.
+[✔] Si no utilizas el API local tu prueba será descartada.
 
 ## Rules
-[] Cada ítem del catálogo debe tener un action button con el texto Add item to cart.
+[✔] Cada ítem del catálogo debe tener un action button con el texto Add item to cart.
 
 [] Si no hay stock el action button debe deshabilitarse.
 
@@ -31,7 +31,7 @@ Se requiere implementar un carrito de compras simple que traiga toda la info del
 
 [] Los items en el carrito se deben de agrupar mostrando cantidad de cada producto añadido.
 
-[] Recuerda la filosofía "Mobile-First Responsive Design".
+[✔] Recuerda la filosofía "Mobile-First Responsive Design".
 <hr>
 
 ## Dia 1:
@@ -130,3 +130,24 @@ Se requiere implementar un carrito de compras simple que traiga toda la info del
 6. Dar estilos mobile first para el modal.
 
 7. Dar estilos responsive para el modal.
+
+<hr>
+
+## Dia 3:
+
+1. Comenzar el componente cart.
+
+2. Averigue formas de usar useContext para llevar la useState mas facil al carrito (prueba).
+
+3. Crear la carpeta "context" y dentro de esta carperta el compoenete "CartConstex" para almacemar y configurar la info que queria pasar.
+
+4. Se envolvio toda la aplicacion en "<CartProvider>" para poder usar useContext.
+
+5. Se creo el componente "Cart" para mostrar la informacion de lo que acumula en el carrito de compras al hacer click.
+
+6. Accion buttons para abrir y cerrar el carrito de compras.
+
+7. Estilos iniciales mobile first carrito de compras.
+
+
+

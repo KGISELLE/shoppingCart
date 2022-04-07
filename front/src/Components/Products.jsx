@@ -1,6 +1,9 @@
-import React, {useState} from 'react';
+import React, {useState, useContext} from 'react';
+
+import { CartContext } from '../Context/CartContext';
 
 import ModalPDP from './ModalPDP';
+import Cart from './Cart';
 
 
 import '../CSS/Products.css'
@@ -12,9 +15,18 @@ const Products = (props) => {
 
     const [nameState, setNameState] = useState([]);
 
+    const [cart, setCart] = useContext(CartContext);
+
+    const addToCart = () => {
+        console.log('Hiciste click')
+        const info = {name: nameState.name, price: nameState.price};
+        // console.log(priceProduct)
+        setCart(currentState => [...currentState, info]);
+    }
 
     return (
         <div className='productContainer'>
+            <Cart />
             {props.apiRes.map((product, i) => (
                 <div key={i} className='itemContainer'>
                     <img src={`http://localhost:5000/${product.image}`} alt={product.name}/>
@@ -26,7 +38,12 @@ const Products = (props) => {
                     }}>{product.name}</p>
                     
                     <p>${product.price}</p>
-                    <button>Add item to cart</button> 
+                    
+                    <button 
+                    onClick={() => {
+                        addToCart();
+                        setNameState(product);
+                    }}>Add item to cart</button> 
                 </div>
             ))}
             <ModalPDP 
@@ -35,6 +52,7 @@ const Products = (props) => {
             nameState={nameState}
             setNameState={setNameState}
             />
+
         </div>
     )
 }
