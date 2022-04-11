@@ -149,5 +149,14 @@ Se requiere implementar un carrito de compras simple que traiga toda la info del
 
 7. Estilos iniciales mobile first carrito de compras.
 
+8. Imagenes aplicación:
+
+    [✔] [ProductListPage y MiniCart](https://imgur.com/yjyRsu8)
+
+    [✔] [ProductDisplayPage](https://imgur.com/6um7XCE)
+
+    [✔] [Cart Mobile](https://imgur.com/7lgjm8m)
+
+    [✔] [Cart Desktop](https://imgur.com/sjAiQ38)
 
 
