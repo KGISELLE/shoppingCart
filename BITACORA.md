@@ -1,4 +1,4 @@
-# ✨📝🏃‍♀️ PASO A PASO RESOLUCIÓN PRUEBA
+# ✨📝🏃‍♀️ PASO A PASO RESOLUCIÓN PRUEBA (Giselle Bernal Melo)
 
 ### Dia 1: Planeación, llamado api y primer componente "ProductListPage".
 ### Dia 2: Componente "ProductDisplayPage".
